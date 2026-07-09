@@ -413,19 +413,21 @@
   }
 
   /* Project 1 — Feature (wide) */
-  .project-feature {
+.project-feature {
     display: grid;
     grid-template-columns: 1.2fr 1fr;
     gap: 0;
     margin-bottom: 5rem;
     border: 1px solid var(--light-gray);
     overflow: hidden;
-  }
+    align-items: center; /* ADD THIS */
+}
+
 .project-feature-img {
+    aspect-ratio: 4/3; /* keep this */
     background: #d0cab8;
     overflow: hidden;
     position: relative;
-    min-height: 600px; /* brute force match the text box height */
 }
 
 .project-feature-img img {
@@ -433,9 +435,6 @@
     height: 100%;
     object-fit: cover;
     display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
     transition: transform 0.7s ease;
 }
 
