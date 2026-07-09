@@ -469,7 +469,7 @@
     color: var(--mid-gray);
     letter-spacing: 0.12em;
     text-transform: uppercase;
-    text-align: justify;
+    text-align: right;
     position: relative;
     z-index: 1;
     line-height: 2;
