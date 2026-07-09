@@ -469,7 +469,7 @@
     color: var(--mid-gray);
     letter-spacing: 0.12em;
     text-transform: uppercase;
-    text-align: right;
+    text-align: justify;
     position: relative;
     z-index: 1;
     line-height: 2;
@@ -515,6 +515,7 @@
     color: var(--concrete);
     flex: 1;
     margin-bottom: 2rem;
+    text-align: justify;
   }
 
   .project-tags {
