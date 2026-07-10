@@ -297,25 +297,18 @@
 
   .section-title em { font-style: italic; color: var(--mid-gray); }
 
-  /* ── ABOUT ── */
+ /* ── ABOUT ── */
   #about {
     background: var(--charcoal);
     color: var(--off-white);
   }
-/*here*/
-.about-grid {
+
+  .about-grid {
     display: grid;
     grid-template-columns: 1fr 1.6fr;
     gap: 6rem;
     align-items: start;
-    overflow: hidden;
-}
-
-.about-left {
-    overflow: hidden;
-    min-width: 0; /* ADD THIS — prevents grid blowout */
-}
-
+  }
 
   .about-left .section-label { color: var(--gold); }
   .about-left .section-label::after { background: rgba(200,191,176,0.3); }
